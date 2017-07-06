@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'walmartappAngular.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'walmartappAngular.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
