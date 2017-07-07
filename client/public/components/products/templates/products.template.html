@@ -1,5 +1,11 @@
 <div ng-controller="ProductsController">
-    <div>
-        {{ message }}
-    </div>
+    <div ng-repeat="product in products">
+      <div style="margin-left: 20px;">
+          upc: {{ product.upc }} <br/>
+          main_image: {{ product.main_image }} <br/>
+          name: {{ product.name }} <br/>
+          brand: {{ product.brand }} <br/>
+          price: {{ product.price }} <br/>
+      </div>
+  </div>
 </div>

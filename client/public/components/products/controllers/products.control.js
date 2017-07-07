@@ -1,4 +1,6 @@
 products
-    .controller('ProductsController', ['$scope', function($scope){
-        $scope.message = "Hello World";
-    }]);
+    .controller('ProductsController', function ($scope, Products) {
+        Products.query().$promise.then(function (data) {
+            $scope.products = data;
+        })
+    });
