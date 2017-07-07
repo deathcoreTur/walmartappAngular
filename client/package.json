@@ -1,0 +1,7 @@
+{
+  "name": "walmartappAngular-client",
+  "description": "Client for walmartapp",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
