@@ -6,4 +6,5 @@ angular
     .module('Walmartapp', [
         'appRoutes',
         'products',
+        'ngResource'
     ]);
