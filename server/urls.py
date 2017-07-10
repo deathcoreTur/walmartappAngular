@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 
 from rest_framework.routers import DefaultRouter
-from server.products.views import ProductViewSet
+from products.views import ProductViewSet
 
 router = DefaultRouter()
 router.register(prefix='products', viewset=ProductViewSet)
